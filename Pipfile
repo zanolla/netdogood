@@ -1,0 +1,18 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+requests = "*"
+flask-mongoalchemy = "*"
+boto3 = "*"
+hashlib = "*"
+flask-restplus = "*"
+werkzeug = "==0.16.1"
+pyjwt = "*"
+
+[requires]
+python_version = "2.7"
